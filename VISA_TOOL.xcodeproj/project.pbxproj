@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7999A32D1AE4ABD8009AC159 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A32C1AE4ABD8009AC159 /* Cocoa.framework */; };
+		7999A3371AE4ABD8009AC159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3351AE4ABD8009AC159 /* InfoPlist.strings */; };
+		7999A3391AE4ABD8009AC159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A3381AE4ABD8009AC159 /* main.m */; };
+		7999A33D1AE4ABD8009AC159 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7999A33B1AE4ABD8009AC159 /* Credits.rtf */; };
+		7999A3401AE4ABD8009AC159 /* visaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A33F1AE4ABD8009AC159 /* visaAppDelegate.m */; };
+		7999A3431AE4ABD8009AC159 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3411AE4ABD8009AC159 /* MainMenu.xib */; };
+		7999A3451AE4ABD8009AC159 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3441AE4ABD8009AC159 /* Images.xcassets */; };
+		7999A34C1AE4ABD8009AC159 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A34B1AE4ABD8009AC159 /* XCTest.framework */; };
+		7999A34D1AE4ABD9009AC159 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A32C1AE4ABD8009AC159 /* Cocoa.framework */; };
+		7999A3551AE4ABD9009AC159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3531AE4ABD9009AC159 /* InfoPlist.strings */; };
+		7999A3571AE4ABD9009AC159 /* VISA_TOOLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A3561AE4ABD9009AC159 /* VISA_TOOLTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7999A34E1AE4ABD9009AC159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7999A3211AE4ABD8009AC159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7999A3281AE4ABD8009AC159;
+			remoteInfo = VISA_TOOL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7999A3291AE4ABD8009AC159 /* VISA_TOOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VISA_TOOL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7999A32C1AE4ABD8009AC159 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7999A32F1AE4ABD8009AC159 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7999A3301AE4ABD8009AC159 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7999A3311AE4ABD8009AC159 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7999A3341AE4ABD8009AC159 /* VISA_TOOL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VISA_TOOL-Info.plist"; sourceTree = "<group>"; };
+		7999A3361AE4ABD8009AC159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7999A3381AE4ABD8009AC159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7999A33A1AE4ABD8009AC159 /* VISA_TOOL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VISA_TOOL-Prefix.pch"; sourceTree = "<group>"; };
+		7999A33C1AE4ABD8009AC159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7999A33E1AE4ABD8009AC159 /* visaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = visaAppDelegate.h; sourceTree = "<group>"; };
+		7999A33F1AE4ABD8009AC159 /* visaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = visaAppDelegate.m; sourceTree = "<group>"; };
+		7999A3421AE4ABD8009AC159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7999A3441AE4ABD8009AC159 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7999A34A1AE4ABD8009AC159 /* VISA_TOOLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISA_TOOLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7999A34B1AE4ABD8009AC159 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7999A3521AE4ABD9009AC159 /* VISA_TOOLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VISA_TOOLTests-Info.plist"; sourceTree = "<group>"; };
+		7999A3541AE4ABD9009AC159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7999A3561AE4ABD9009AC159 /* VISA_TOOLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISA_TOOLTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7999A3261AE4ABD8009AC159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7999A32D1AE4ABD8009AC159 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7999A3471AE4ABD8009AC159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7999A34D1AE4ABD9009AC159 /* Cocoa.framework in Frameworks */,
+				7999A34C1AE4ABD8009AC159 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7999A3201AE4ABD8009AC159 = {
+			isa = PBXGroup;
+			children = (
+				7999A3321AE4ABD8009AC159 /* VISA_TOOL */,
+				7999A3501AE4ABD9009AC159 /* VISA_TOOLTests */,
+				7999A32B1AE4ABD8009AC159 /* Frameworks */,
+				7999A32A1AE4ABD8009AC159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7999A32A1AE4ABD8009AC159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7999A3291AE4ABD8009AC159 /* VISA_TOOL.app */,
+				7999A34A1AE4ABD8009AC159 /* VISA_TOOLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7999A32B1AE4ABD8009AC159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7999A32C1AE4ABD8009AC159 /* Cocoa.framework */,
+				7999A34B1AE4ABD8009AC159 /* XCTest.framework */,
+				7999A32E1AE4ABD8009AC159 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7999A32E1AE4ABD8009AC159 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7999A32F1AE4ABD8009AC159 /* AppKit.framework */,
+				7999A3301AE4ABD8009AC159 /* CoreData.framework */,
+				7999A3311AE4ABD8009AC159 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7999A3321AE4ABD8009AC159 /* VISA_TOOL */ = {
+			isa = PBXGroup;
+			children = (
+				7999A33E1AE4ABD8009AC159 /* visaAppDelegate.h */,
+				7999A33F1AE4ABD8009AC159 /* visaAppDelegate.m */,
+				7999A3411AE4ABD8009AC159 /* MainMenu.xib */,
+				7999A3441AE4ABD8009AC159 /* Images.xcassets */,
+				7999A3331AE4ABD8009AC159 /* Supporting Files */,
+			);
+			path = VISA_TOOL;
+			sourceTree = "<group>";
+		};
+		7999A3331AE4ABD8009AC159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7999A3341AE4ABD8009AC159 /* VISA_TOOL-Info.plist */,
+				7999A3351AE4ABD8009AC159 /* InfoPlist.strings */,
+				7999A3381AE4ABD8009AC159 /* main.m */,
+				7999A33A1AE4ABD8009AC159 /* VISA_TOOL-Prefix.pch */,
+				7999A33B1AE4ABD8009AC159 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7999A3501AE4ABD9009AC159 /* VISA_TOOLTests */ = {
+			isa = PBXGroup;
+			children = (
+				7999A3561AE4ABD9009AC159 /* VISA_TOOLTests.m */,
+				7999A3511AE4ABD9009AC159 /* Supporting Files */,
+			);
+			path = VISA_TOOLTests;
+			sourceTree = "<group>";
+		};
+		7999A3511AE4ABD9009AC159 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7999A3521AE4ABD9009AC159 /* VISA_TOOLTests-Info.plist */,
+				7999A3531AE4ABD9009AC159 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7999A3281AE4ABD8009AC159 /* VISA_TOOL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7999A35A1AE4ABD9009AC159 /* Build configuration list for PBXNativeTarget "VISA_TOOL" */;
+			buildPhases = (
+				7999A3251AE4ABD8009AC159 /* Sources */,
+				7999A3261AE4ABD8009AC159 /* Frameworks */,
+				7999A3271AE4ABD8009AC159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VISA_TOOL;
+			productName = VISA_TOOL;
+			productReference = 7999A3291AE4ABD8009AC159 /* VISA_TOOL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7999A3491AE4ABD8009AC159 /* VISA_TOOLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7999A35D1AE4ABD9009AC159 /* Build configuration list for PBXNativeTarget "VISA_TOOLTests" */;
+			buildPhases = (
+				7999A3461AE4ABD8009AC159 /* Sources */,
+				7999A3471AE4ABD8009AC159 /* Frameworks */,
+				7999A3481AE4ABD8009AC159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7999A34F1AE4ABD9009AC159 /* PBXTargetDependency */,
+			);
+			name = VISA_TOOLTests;
+			productName = VISA_TOOLTests;
+			productReference = 7999A34A1AE4ABD8009AC159 /* VISA_TOOLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7999A3211AE4ABD8009AC159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = visa;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					7999A3491AE4ABD8009AC159 = {
+						TestTargetID = 7999A3281AE4ABD8009AC159;
+					};
+				};
+			};
+			buildConfigurationList = 7999A3241AE4ABD8009AC159 /* Build configuration list for PBXProject "VISA_TOOL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7999A3201AE4ABD8009AC159;
+			productRefGroup = 7999A32A1AE4ABD8009AC159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7999A3281AE4ABD8009AC159 /* VISA_TOOL */,
+				7999A3491AE4ABD8009AC159 /* VISA_TOOLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7999A3271AE4ABD8009AC159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7999A3371AE4ABD8009AC159 /* InfoPlist.strings in Resources */,
+				7999A3451AE4ABD8009AC159 /* Images.xcassets in Resources */,
+				7999A33D1AE4ABD8009AC159 /* Credits.rtf in Resources */,
+				7999A3431AE4ABD8009AC159 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7999A3481AE4ABD8009AC159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7999A3551AE4ABD9009AC159 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7999A3251AE4ABD8009AC159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7999A3391AE4ABD8009AC159 /* main.m in Sources */,
+				7999A3401AE4ABD8009AC159 /* visaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7999A3461AE4ABD8009AC159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7999A3571AE4ABD9009AC159 /* VISA_TOOLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7999A34F1AE4ABD9009AC159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7999A3281AE4ABD8009AC159 /* VISA_TOOL */;
+			targetProxy = 7999A34E1AE4ABD9009AC159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7999A3351AE4ABD8009AC159 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7999A3361AE4ABD8009AC159 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7999A33B1AE4ABD8009AC159 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7999A33C1AE4ABD8009AC159 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7999A3411AE4ABD8009AC159 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7999A3421AE4ABD8009AC159 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7999A3531AE4ABD9009AC159 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7999A3541AE4ABD9009AC159 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7999A3581AE4ABD9009AC159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7999A3591AE4ABD9009AC159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7999A35B1AE4ABD9009AC159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISA_TOOL/VISA_TOOL-Prefix.pch";
+				INFOPLIST_FILE = "VISA_TOOL/VISA_TOOL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7999A35C1AE4ABD9009AC159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISA_TOOL/VISA_TOOL-Prefix.pch";
+				INFOPLIST_FILE = "VISA_TOOL/VISA_TOOL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7999A35E1AE4ABD9009AC159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VISA_TOOL.app/Contents/MacOS/VISA_TOOL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISA_TOOL/VISA_TOOL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VISA_TOOLTests/VISA_TOOLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7999A35F1AE4ABD9009AC159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VISA_TOOL.app/Contents/MacOS/VISA_TOOL";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VISA_TOOL/VISA_TOOL-Prefix.pch";
+				INFOPLIST_FILE = "VISA_TOOLTests/VISA_TOOLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7999A3241AE4ABD8009AC159 /* Build configuration list for PBXProject "VISA_TOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7999A3581AE4ABD9009AC159 /* Debug */,
+				7999A3591AE4ABD9009AC159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7999A35A1AE4ABD9009AC159 /* Build configuration list for PBXNativeTarget "VISA_TOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7999A35B1AE4ABD9009AC159 /* Debug */,
+				7999A35C1AE4ABD9009AC159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7999A35D1AE4ABD9009AC159 /* Build configuration list for PBXNativeTarget "VISA_TOOLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7999A35E1AE4ABD9009AC159 /* Debug */,
+				7999A35F1AE4ABD9009AC159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7999A3211AE4ABD8009AC159 /* Project object */;
+}
