@@ -11,13 +11,19 @@
 		7999A3371AE4ABD8009AC159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3351AE4ABD8009AC159 /* InfoPlist.strings */; };
 		7999A3391AE4ABD8009AC159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A3381AE4ABD8009AC159 /* main.m */; };
 		7999A33D1AE4ABD8009AC159 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7999A33B1AE4ABD8009AC159 /* Credits.rtf */; };
-		7999A3401AE4ABD8009AC159 /* visaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A33F1AE4ABD8009AC159 /* visaAppDelegate.m */; };
+		7999A3401AE4ABD8009AC159 /* visaAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7999A33F1AE4ABD8009AC159 /* visaAppDelegate.mm */; };
 		7999A3431AE4ABD8009AC159 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3411AE4ABD8009AC159 /* MainMenu.xib */; };
 		7999A3451AE4ABD8009AC159 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3441AE4ABD8009AC159 /* Images.xcassets */; };
 		7999A34C1AE4ABD8009AC159 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A34B1AE4ABD8009AC159 /* XCTest.framework */; };
 		7999A34D1AE4ABD9009AC159 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A32C1AE4ABD8009AC159 /* Cocoa.framework */; };
 		7999A3551AE4ABD9009AC159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3531AE4ABD9009AC159 /* InfoPlist.strings */; };
 		7999A3571AE4ABD9009AC159 /* VISA_TOOLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A3561AE4ABD9009AC159 /* VISA_TOOLTests.m */; };
+		7999A3631AE4ACC0009AC159 /* VISA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A3621AE4ACC0009AC159 /* VISA.framework */; };
+		7999A3661AE4ACFC009AC159 /* GPIBComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999A3651AE4ACFC009AC159 /* GPIBComm.m */; };
+		7999A3691AE4AD97009AC159 /* VisaPort.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7999A3681AE4AD97009AC159 /* VisaPort.mm */; };
+		7999A36C1AE4CED8009AC159 /* Visa_global.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7999A36B1AE4CED8009AC159 /* Visa_global.mm */; };
+		7999A3721AE4DEE8009AC159 /* 13231322321.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7999A3711AE4DEE8009AC159 /* 13231322321.icns */; };
+		7999A37E1AE4E24A009AC159 /* 12323231213.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7999A37D1AE4E24A009AC159 /* 12323231213.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,7 @@
 		7999A33A1AE4ABD8009AC159 /* VISA_TOOL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VISA_TOOL-Prefix.pch"; sourceTree = "<group>"; };
 		7999A33C1AE4ABD8009AC159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		7999A33E1AE4ABD8009AC159 /* visaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = visaAppDelegate.h; sourceTree = "<group>"; };
-		7999A33F1AE4ABD8009AC159 /* visaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = visaAppDelegate.m; sourceTree = "<group>"; };
+		7999A33F1AE4ABD8009AC159 /* visaAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = visaAppDelegate.mm; sourceTree = "<group>"; };
 		7999A3421AE4ABD8009AC159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7999A3441AE4ABD8009AC159 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7999A34A1AE4ABD8009AC159 /* VISA_TOOLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VISA_TOOLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +56,15 @@
 		7999A3521AE4ABD9009AC159 /* VISA_TOOLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VISA_TOOLTests-Info.plist"; sourceTree = "<group>"; };
 		7999A3541AE4ABD9009AC159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7999A3561AE4ABD9009AC159 /* VISA_TOOLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VISA_TOOLTests.m; sourceTree = "<group>"; };
+		7999A3621AE4ACC0009AC159 /* VISA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VISA.framework; path = VISA_TOOL/VISA.framework; sourceTree = "<group>"; };
+		7999A3641AE4ACFC009AC159 /* GPIBComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPIBComm.h; sourceTree = "<group>"; };
+		7999A3651AE4ACFC009AC159 /* GPIBComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPIBComm.m; sourceTree = "<group>"; };
+		7999A3671AE4AD97009AC159 /* VisaPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaPort.h; sourceTree = "<group>"; };
+		7999A3681AE4AD97009AC159 /* VisaPort.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VisaPort.mm; sourceTree = "<group>"; };
+		7999A36A1AE4CED8009AC159 /* Visa_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visa_global.h; sourceTree = "<group>"; };
+		7999A36B1AE4CED8009AC159 /* Visa_global.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Visa_global.mm; sourceTree = "<group>"; };
+		7999A3711AE4DEE8009AC159 /* 13231322321.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 13231322321.icns; sourceTree = "<group>"; };
+		7999A37D1AE4E24A009AC159 /* 12323231213.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 12323231213.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7999A3631AE4ACC0009AC159 /* VISA.framework in Frameworks */,
 				7999A32D1AE4ABD8009AC159 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +111,7 @@
 		7999A32B1AE4ABD8009AC159 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7999A3621AE4ACC0009AC159 /* VISA.framework */,
 				7999A32C1AE4ABD8009AC159 /* Cocoa.framework */,
 				7999A34B1AE4ABD8009AC159 /* XCTest.framework */,
 				7999A32E1AE4ABD8009AC159 /* Other Frameworks */,
@@ -115,8 +132,16 @@
 		7999A3321AE4ABD8009AC159 /* VISA_TOOL */ = {
 			isa = PBXGroup;
 			children = (
+				7999A37D1AE4E24A009AC159 /* 12323231213.icns */,
+				7999A3711AE4DEE8009AC159 /* 13231322321.icns */,
+				7999A3671AE4AD97009AC159 /* VisaPort.h */,
+				7999A3681AE4AD97009AC159 /* VisaPort.mm */,
+				7999A36A1AE4CED8009AC159 /* Visa_global.h */,
+				7999A36B1AE4CED8009AC159 /* Visa_global.mm */,
 				7999A33E1AE4ABD8009AC159 /* visaAppDelegate.h */,
-				7999A33F1AE4ABD8009AC159 /* visaAppDelegate.m */,
+				7999A33F1AE4ABD8009AC159 /* visaAppDelegate.mm */,
+				7999A3641AE4ACFC009AC159 /* GPIBComm.h */,
+				7999A3651AE4ACFC009AC159 /* GPIBComm.m */,
 				7999A3411AE4ABD8009AC159 /* MainMenu.xib */,
 				7999A3441AE4ABD8009AC159 /* Images.xcassets */,
 				7999A3331AE4ABD8009AC159 /* Supporting Files */,
@@ -231,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7999A37E1AE4E24A009AC159 /* 12323231213.icns in Resources */,
+				7999A3721AE4DEE8009AC159 /* 13231322321.icns in Resources */,
 				7999A3371AE4ABD8009AC159 /* InfoPlist.strings in Resources */,
 				7999A3451AE4ABD8009AC159 /* Images.xcassets in Resources */,
 				7999A33D1AE4ABD8009AC159 /* Credits.rtf in Resources */,
@@ -253,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7999A3661AE4ACFC009AC159 /* GPIBComm.m in Sources */,
 				7999A3391AE4ABD8009AC159 /* main.m in Sources */,
-				7999A3401AE4ABD8009AC159 /* visaAppDelegate.m in Sources */,
+				7999A36C1AE4CED8009AC159 /* Visa_global.mm in Sources */,
+				7999A3401AE4ABD8009AC159 /* visaAppDelegate.mm in Sources */,
+				7999A3691AE4AD97009AC159 /* VisaPort.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,8 +415,16 @@
 		7999A35B1AE4ABD9009AC159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fuhuibin/Documents/svn下载/in733",
+					Software/SourceCode/TestManager/AgDCPS,
+					"$(PROJECT_DIR)/VISA_TOOL",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VISA_TOOL/VISA_TOOL-Prefix.pch";
 				INFOPLIST_FILE = "VISA_TOOL/VISA_TOOL-Info.plist";
@@ -398,8 +436,16 @@
 		7999A35C1AE4ABD9009AC159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fuhuibin/Documents/svn下载/in733",
+					Software/SourceCode/TestManager/AgDCPS,
+					"$(PROJECT_DIR)/VISA_TOOL",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VISA_TOOL/VISA_TOOL-Prefix.pch";
 				INFOPLIST_FILE = "VISA_TOOL/VISA_TOOL-Info.plist";
